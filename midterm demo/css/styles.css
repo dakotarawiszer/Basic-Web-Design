@@ -16,14 +16,14 @@ header {
 
 header img {
     display: block;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     padding: 40px;
 }
 
 #container {
     background-color: white;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     border-left: 4px solid blueviolet;
     border-right: 4px solid blueviolet;
@@ -49,4 +49,36 @@ nav a {
 nav a:hover {
     background-color: black;
     color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.volley {
+    width: 25%;
+}
+
+footer {
+    background-color: black;
+    padding: 40px o;
+    color: white;
+    text-align: center;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.volleyball {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    border: 4 px solid lightslategray;
 }
