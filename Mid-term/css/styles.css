@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-    color: lightslategray;
+    color: white;
     text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ header {
 }
 
 header img {
-    width: 85% ;
+    width: 50% ;
     display: block;
     margin: 0 auto;
 }
@@ -35,16 +35,18 @@ header img {
 nav {
     text-align: center;
     background-color: lightslategray;
-    padding: 15px 0;
+    padding: 25px 0;
     margin-top: 20px;
 }
 
 nav a {
     background-color:lightsteelblue;
     color: white;
-    padding: 15px 50px;
+    padding: 13px 35px;
     text-decoration: none;
     font-size: 20px;
+    border-radius: 10px 10px 0 0;
+    margin: 0 3px;
 }
 
 nav a:hover {
