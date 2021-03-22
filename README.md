@@ -11,3 +11,5 @@
 <a href="Lab 4/index.html" target="_blank">Lab 4 - Introduction to CSS</a>
 
 <a href="Mid-term/index.html" target="_blank">Mid-term - Volleyball</a>
+
+<a href="Lab 5/index.html" target="_blank">Lab 5 - Dog Breeds</a>
