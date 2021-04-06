@@ -15,3 +15,5 @@
 <a href="Lab 5/index.html" target="_blank">Lab 5 - Dog Breeds</a>
 
 <a href="Lab 6/index.html" target="_blank">Lab 6 - Dog Breeds</a>
+
+<a href="Lab 7/index.html" target="_blank">Lab 7 - Audio, Video and Tables</a>
