@@ -1,0 +1,127 @@
+/* Mobile Styles */        
+body {
+    font-family: 'New Tegomin', serif;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+
+#container {
+    margin: 5px;
+}
+
+header {
+    background-image: url(../images/shoplocal.jpg);
+    background-position: center;
+    background-size: 950px;
+    background-color: rgb(182, 145, 182);
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    color: whitesmoke;
+    line-height: 300px;
+    font-size: 3.5em;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+nav {
+    background-color: rgb(182, 145, 182);
+}
+
+section {
+    background-color: rgb(182, 145, 182);
+    padding: 10px;
+    margin: 5px;
+}
+
+section img {
+    display: inline-block;
+    height: 400px;
+}
+
+section h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    background-color: rgb(182, 145, 182);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#menu {
+    display: none;
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 200px;
+        line-height: 175px;
+        background-size: contain;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+    
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px 0;
+        margin: 5px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: block;
+        background-color: thistle;
+        color: white;
+        padding: 15px;
+        width: 150px;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        color: rgb(182, 145, 182);
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
+}

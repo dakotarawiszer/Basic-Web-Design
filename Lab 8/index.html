@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8 - jQuery</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="Zenscroll/zenscroll-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+            $( "#tabs" ).tabs();
+        });
+    </script>
+</head>
+
+
+<body id="top">
+    <div id="container">
+        <header>
+            <h1>Vinterest Southside</h1>
+        </header>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#info">More Info</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <h2>What is Vinterest?</h2>
+                <p>Vinterest is an antique shop locally owned where people rent out booths and sell their own items. There are different sizes of booths people can rent out monthly. Although all the spaces are normally full when there is a space open it is NOT first come first serve, it is whatever is unique to the store. We do not want to add a new vendor who is selling candles if we already have someone selling candles and making a profit, we do not want any competition!</p>
+
+                <p>We also have two stores total! One is in Hixson and it's called Vinterest Antiques and has won Best Antique store 6 years in a row! The other one is on the Southside called Vinterest Southside which has been open for 3 years now!</p>
+                <a href="#top">Back to the Top</a>
+            </section>
+
+            <section id="about">
+                <h2>About</h2>
+                <div id="accordion">
+                    <h3>Prices</h3>
+                    <div>
+                      <p>
+                        The prices are the same for other stores and it depends on the size booth you are interested in. The prices ranges from $50-$550 per month. The least expensive would be a book shelf and the most expensive would be an 8 by 20 booth.
+                      </p>
+                    </div>
+                    <h3>Locations</h3>
+                    <div>
+                      <p>
+                      Our Hixson store has been open for a little over 6 years now. We are located right behind the 5 Guys in Hixson or right beside Northgate mall.
+                      </p>
+                      <p>2105 Northpoint Blvd</p>
+                      <p>Our Southside store just turned 3 on Easter weekend! We are located on Chestnut Street right across from Finley Stadium!</p>
+                      <p>2121 Chestnut Street</p>
+                    </div>
+                    <h3>What to Sell</h3>
+                    <div>
+                      <p>
+                      You can sell anything you want as long as someone else in the store isn't already selling it. 
+                      </p>
+                      <ul>
+                        <li>Antiques</li>
+                        <li>Furniture</li>
+                        <li>Clothing</li>
+                        <li>Food</li>
+                        <li>Toys</li>
+                      </ul>
+                    </div>
+                    
+                    </div>
+                    <a href="#top">Back to the Top</a>
+                  
+                </section>
+
+                <section id="info">
+                    <h2>More Info</h2>
+                    <div id="tabs">
+                        <ul>
+                          <li><a href="#tabs-1">Booth of the Day</a></li>
+                          <li><a href="#tabs-2">Hours</a></li>
+                          
+                        </ul>
+                        <div id="tabs-1">
+                          <p>Everyday at both stores we do a booth of the day. Which means we give a "shout out" to one booth on our facebook and make everything in that booth 10% off for the whole day. A way to know who's booth of the day is to follow us on our Facebook pages. </p>
+                        </div>
+                        <div id="tabs-2">
+                          <ul>
+                              <li>Monday 10-7</li>
+                              <li>Tuesday 10-7</li>
+                              <li>Wednesday 10-7</li>
+                              <li>Thursday 10-7</li>
+                              <li>Friday 10-7</li>
+                              <li>Saturday 9-6</li>
+                              <li>Sunday 11-5</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <a href="#top">Back to the Top</a>
+                </section>
+
+
+            <section id="contact">
+                <h2>Contact</h2>
+
+                <p>You can sign up to become a member of Vinterest by clicking the link below and filling out the application. It is always best to add pictures of what your product would look like so we can see if it will fit in our store. You can also pick which store you would like to be in throughout the application process.</p>
+
+                <p><a href="https://vinterestantiques.com/boothrental.html" target="_blank">Become a Vendor With Us</a></p>
+
+                <p>Another way of getting in touch with us is by calling the store.</p>
+                <a href="423-498-4825">Southside's Phone Number</a>
+                <a href="423-551-4790">Hixson's Phone Number</a>
+                <a href="#top">Back to the Top</a>
+            </section>
+
+            <section id="portfolio">
+
+                <h2>Portfolio</h2>
+                
+                <div class="slider">
+                    <div><img src="images/vinterestss.jpg" alt="random"></div>
+                    <div><img src="images/6years.jpg" alt="random"></div>
+                    <div><img src="images/gather.jpg" alt="random"></div>
+                </div>
+            </section>
+        </main>
+        <footer>&copy; 2021 Lab 8 - jQuery</footer>
+    </div>
+    
+</body>
+</html>
