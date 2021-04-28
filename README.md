@@ -19,3 +19,5 @@
 <a href="Lab 7/index.html" target="_blank">Lab 7 - Audio, Video and Tables</a>
 
 <a href="Lab 8/index.html" target="_blank">Lab 8 - jQuery</a>
+
+<a href="Final/index.html" target="_blank">Final - Dakota's Bakery</a>
